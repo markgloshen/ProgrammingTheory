@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Horse
       objectReference: {fileID: 0}
+    - target: {fileID: 151702, guid: 68a45bf17ac566545b70a13c90a7ee65, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 471118, guid: 68a45bf17ac566545b70a13c90a7ee65, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -209,6 +213,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8b03291cada5a349b6242cade9db8da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _name: Animal
+  _speed: 5
+  _isEating: 0
 --- !u!1 &179721687 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 151702, guid: 68a45bf17ac566545b70a13c90a7ee65, type: 3}
@@ -226,6 +233,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ddb98a288755b44496452354d027aa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _name: Animal
+  _speed: 5
+  _isEating: 0
 --- !u!1001 &184443825
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -236,6 +246,10 @@ PrefabInstance:
     - target: {fileID: 120214, guid: 9bf484c5ec3d3bf43b2034c829f1abbe, type: 3}
       propertyPath: m_Name
       value: Chicken
+      objectReference: {fileID: 0}
+    - target: {fileID: 120214, guid: 9bf484c5ec3d3bf43b2034c829f1abbe, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 476096, guid: 9bf484c5ec3d3bf43b2034c829f1abbe, type: 3}
       propertyPath: m_RootOrder
@@ -312,6 +326,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24e3fb5c8d190db4bb8cb761046fb7b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _name: Animal
+  _speed: 5
+  _isEating: 0
 --- !u!1 &590240679
 GameObject:
   m_ObjectHideFlags: 0
