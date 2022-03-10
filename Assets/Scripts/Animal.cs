@@ -12,8 +12,6 @@ abstract public class Animal : MonoBehaviour // INHERITANCE
     [SerializeField] private float _speed = 5f;
     [SerializeField] private bool _isEating = false;
 
-    private Animator _animator;
-
     // Properties that are abstract MUST be implemented in child classes.
     // All animals must have a number of legs and there is no sane default.
     public abstract int NumLegs { get; protected set; } // ENCAPSULATION
@@ -46,20 +44,15 @@ abstract public class Animal : MonoBehaviour // INHERITANCE
         protected set => _isEating = value;
     }
 
-    private void Awake()
-    {
-        _animator = gameObject.GetComponent<Animator>();
-    }
-
     // ABSTRACTION
-    public void StartEating()
+    public void StartEating(Animator _animator)
     {
         _isEating = true;
         _animator.SetFloat("Speed_f", 0f);
         _animator.SetBool("Eat_b", true);
     }
 
-    public void StopEating()
+    public void StopEating(Animator _animator)
     {
         _isEating = false;
         _animator.SetFloat("Speed_f", _speed);

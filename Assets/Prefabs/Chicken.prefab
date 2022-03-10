@@ -142,6 +142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 476096}
   - component: {fileID: 9567898}
+  - component: {fileID: 7384120475991498367}
   m_Layer: 0
   m_Name: Chicken
   m_TagString: Untagged
@@ -190,6 +191,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &7384120475991498367
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120214}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.759536, y: 16.386578, z: 19.928608}
+  m_Center: {x: 0.022988439, y: 7.6932898, z: 1.2223969}
 --- !u!1 &130812
 GameObject:
   m_ObjectHideFlags: 0
